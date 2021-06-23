@@ -16,14 +16,14 @@ Ecommerce app built on the MERN stack with all of the features you'd expect: use
     cd frontend
     npm install
     Seed database
- # Import data
+    ## Import data
     npm run data:import
-# Destroy data
+    ## Destroy data
     npm run data:destroy
 5. Run client and server from root
     npm run server
     npm run client
-# Sample accounts
+    ## Sample accounts
 
     Admin
     admin@example.com
