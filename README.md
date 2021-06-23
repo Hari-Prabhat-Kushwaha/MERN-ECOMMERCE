@@ -1,22 +1,34 @@
-# Ecommerce-Mern
+# MERN-ECOMMERCE
 E-commerce app MERN Stack
-# visit the Platform 
-https://pro-e-commerce.herokuapp.com
-# image
-https://i.ibb.co/JqVJGBV/Screenshot-2020-12-16-at-22-18-53.png
-![alt text](https://i.ibb.co/JqVJGBV/Screenshot-2020-12-16-at-22-18-53.png)
+Ecommerce app built on the MERN stack with all of the features you'd expect: user registration and authentication, ability to look at products and add to cart, delete products as an admin, user profile updates, searching, pagination and more.
 
-# Features
-#Full featured shopping cart
-Product reviews and ratings
-Top products carousel
-Product pagination
-Product search feature
-User profile with orders
-Admin product management
-Admin user management
-Admin Order details page
-Mark orders as delivered option
-Checkout process (shipping, payment method, etc)
-PayPal / credit card integration
-Database seeder (products & users)
+# How to Setup
+1. Clone
+2. git clone https://github.com/Hari-Prabhat-Kushwaha/MERN-ECOMMERCE
+3. Create .env file in the project root with the following:
+    NODE_ENV = development
+    PORT = 5000
+    MONGO_URI = your mongodb uri
+    JWT_SECRET = 'abc123'
+    PAYPAL_CLIENT_ID = your paypal client id
+4. Install dependencies
+    npm install
+    cd frontend
+    npm install
+    Seed database
+ # Import data
+    npm run data:import
+# Destroy data
+    npm run data:destroy
+5. Run client and server from root
+    npm run server
+    npm run client
+# Sample accounts
+
+    Admin
+    admin@example.com
+    password
+
+    Customer
+    mack@example.com
+    password
