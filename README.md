@@ -6,11 +6,11 @@ Ecommerce app built on the MERN stack with all of the features you'd expect: use
 1. Clone
 2. git clone https://github.com/Hari-Prabhat-Kushwaha/MERN-ECOMMERCE
 3. Create .env file in the project root with the following:
-    NODE_ENV = development
-    PORT = 5000
-    MONGO_URI = your mongodb uri
-    JWT_SECRET = 'abc123'
-    PAYPAL_CLIENT_ID = your paypal client id
+     NODE_ENV = development,
+     PORT = 5000,
+     MONGO_URI = your mongodb uri,
+     JWT_SECRET = 'abc123',
+     PAYPAL_CLIENT_ID = your paypal client id
 4. Install dependencies
     npm install
     cd frontend
