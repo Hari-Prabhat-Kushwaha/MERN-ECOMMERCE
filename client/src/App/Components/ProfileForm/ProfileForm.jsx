@@ -29,7 +29,7 @@ export default function LoginForm() {
  
     const dispatch = useDispatch()
     const {isAuthenticated, currentUser,  error} =  useSelector(state => state.user)
-    const {userProfile } = useSelector(state => state.profile)
+   
     
     useEffect(()=>{
         if(!isAuthenticated){

@@ -7,7 +7,7 @@ import CartPage from './App/Pages/CartPage/CartPage';
 import HomePage from './App/Pages/HomePage/HomePage';
 import LoginScreen from './App/Pages/LoginScreen/LoginScreen';
 import ProductDetailedPage from './App/Pages/ProductDetailedPage/ProductDetailedPage';
-import RegisterPage from './App/Pages/ RegisterPage/RegisterPage'
+import RegisterPage from './App/Pages/RegisterPage/RegisterPage'
 import ProfilePage from './App/Pages/ProfilePage/ProfilePage';
 import ShippingPage from './App/Pages/ShippingPage/ShippingPage';
 import PaymentPage from './App/Pages/PaymentPage/PaymentPage';
